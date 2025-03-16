@@ -16,7 +16,7 @@ export class Chatforma implements INodeType {
 	description: INodeTypeDescription = {
 			displayName: 'Chatforma',
 			name: 'Chatforma',
-			icon: 'file:Chatforma.svg',
+			icon: 'file:Chatforma.png',
 			group: ['transform'],
 			version: 1,
 			description: 'Consume Chatforma API',
