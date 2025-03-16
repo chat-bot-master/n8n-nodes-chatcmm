@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-chatcmm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chatforma module for community n8n nodes.",
   "keywords": [
     "n8n-community-node-package"
@@ -13,7 +13,11 @@
   },
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "https://github.com/HelenKuharuk/n8n-nodes-chatcmm.git"
+=======
+    "url": "https://github.com/chat-bot-master/n8n-nodes-chatcmm.git"
+>>>>>>> f351ec276e8af7c5679144c792b37126ad70aad8
   },
   "engines": {
     "node": ">=18.10",
