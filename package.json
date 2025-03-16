@@ -51,12 +51,9 @@
     "prettier": "^3.3.2",
     "typescript": "^5.5.3"
   },
-  "peerDependencies": {
-    "n8n-workflow": "*"
-  },
   "dependencies": {
     "axios": "^1.8.3",
-    "n8n-workflow": "*",
+    "n8n-workflow": "^1.70.0",
     "request": "^2.88.2"
   }
 }

@@ -5,6 +5,9 @@ import type {
 	INodeType,
 	INodeTypeDescription,
 } from 'n8n-workflow';
+import {
+	BotDescription
+} from './descriptions';
 import { NodeConnectionType, NodeOperationError } from 'n8n-workflow';
 
 import axios, { AxiosRequestConfig } from 'axios';
@@ -312,6 +315,7 @@ export class Chatforma implements INodeType {
 				default:'',
 				description:'ID отправляемого сообщения',
 			},
+			...BotDescription,
 			],
 	};
 
