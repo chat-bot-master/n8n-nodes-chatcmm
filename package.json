@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-chatcmm",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Chatforma module for community n8n nodes.",
   "keywords": [
     "n8n-community-node-package"
@@ -34,7 +34,7 @@
   },
   "files": [
     "dist",
-    "nodes/Chatforma/Chatforma.svg"
+    "dist/nodes/Chatforma/Chatforma.svg"
   ],
   "n8n": {
     "n8nNodesApiVersion": 1,
